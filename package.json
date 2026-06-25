@@ -1,0 +1,14 @@
+{
+  "name": "supaplay-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Responsive SupaPlay frontend for anime, movies and TV.",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/assets/js/api.js && node --check public/assets/js/store.js && node --check public/assets/js/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
